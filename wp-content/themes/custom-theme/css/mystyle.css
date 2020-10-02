@@ -1,0 +1,41 @@
+/* default styles */
+header{
+    height: 70px;  
+}
+
+
+body{
+    
+}
+h1{
+    font-family: 'Noto Sans';
+}
+p{
+    word-wrap: break-word;
+}
+/* header part */
+.header-container{
+    display: flex;   
+    align-items: center;
+    position: relative;
+    height: 100%;
+}
+/* nav menu */
+.header-menu{
+    position: absolute; 
+    right: 0px;
+    margin-top: -10px;    
+}
+.header-menu > li{
+    float: left;  
+    list-style-type: none;  
+}
+.header-menu > li > a {
+    padding: 10px;
+    color: white;        
+}
+.header-menu > li > a:hover{
+    text-decoration: none;
+    transition: 800ms;
+    color: red;
+}
